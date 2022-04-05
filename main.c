@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 void resultado(int z){
 
     char resultado[8];
@@ -38,7 +37,6 @@ int conversor(){
     return convertido;
 
 }
-
 
 void soma(){
     int x;
@@ -110,7 +108,6 @@ void modulo(){
     
 }
 
-
 int main(){
 
     int u = 163; // código dec da tabela ascii para "ú"
@@ -127,18 +124,28 @@ int main(){
 
     switch (escolha){
     case 1:
+        printf("\nOpera%c%co selecionada: Soma\n",c,a);
+        printf("Insira os n%cmeros para a opera%c%co, um ap%cs o outro.\n",u,c,a,o);
         soma();
         break;
     case 2:
+        printf("\nOpera%c%co selecionada: Subtra%c%co\n",c,a,c,a);
+        printf("Insira os n%cmeros para a opera%c%co, um ap%cs o outro.\n",u,c,a,o);
         subtracao();
         break;
     case 3:
+        printf("\nOpera%c%co selecionada: Multiplica%c%co\n",c,a,c,a);
+        printf("Insira os n%cmeros para a opera%c%co, um ap%cs o outro.\n",u,c,a,o);
         multiplicacao();
         break;
     case 4:
+        printf("\nOpera%c%co selecionada: Divis%co\n",c,a,a);
+        printf("Insira os n%cmeros para a opera%c%co, um ap%cs o outro.\n",u,c,a,o);
         divisao();
         break;
     case 5:
+        printf("\nOpera%c%co selecionada: M%cdulo\n",c,a,o);
+        printf("Insira os n%cmeros para a opera%c%co, um ap%cs o outro.\n",u,c,a,o);
         modulo();
         break;
     
