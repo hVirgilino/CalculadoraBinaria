@@ -2,6 +2,35 @@
 #include <stdlib.h>
 #include <string.h>
 
+void conversor(){
+
+}
+
+void resultado(){
+
+}
+
+void soma(){
+
+}
+
+void subtracao(){
+    
+}
+
+void multiplicacao(){
+    
+}
+
+void divisao(){
+    
+}
+
+void modulo(){
+    
+}
+
+
 int main(){
 
     int u = 163; // código dec da tabela ascii para "ú"
