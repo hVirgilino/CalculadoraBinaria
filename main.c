@@ -55,18 +55,58 @@ void soma(){
 }
 
 void subtracao(){
+    int x;
+    int y;
+    int z;
+
+
+    x = conversor();
+    y = conversor();
     
+    z = x - y;
+    resultado(z);
+     
 }
 
 void multiplicacao(){
+    int x;
+    int y;
+    int z;
+
+
+    x = conversor();
+    y = conversor();
+    
+    z = x * y;
+    resultado(z);
     
 }
 
 void divisao(){
+    int x;
+    int y;
+    int z;
+
+
+    x = conversor();
+    y = conversor();
+    
+    z = x / y;
+    resultado(z);
     
 }
 
 void modulo(){
+    int x;
+    int y;
+    int z;
+
+
+    x = conversor();
+    y = conversor();
+    
+    z = x % y;
+    resultado(z);
     
 }
 
