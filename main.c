@@ -44,13 +44,12 @@ void soma(){
     int x;
     int y;
     int z;
-    scanf("%d", &x);
-    scanf("%d", &y);
+
 
     x = conversor();
     y = conversor();
     
-    z=x+y;
+    z = x + y;
     resultado(z);
     
 }
